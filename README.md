@@ -1,11 +1,11 @@
 # Chatbot AI Gemini
 
-Sebuah chatbot AI sederhana yang dibangun dengan **Next.js** dan **OpenAI API**.
+Sebuah chatbot AI sederhana yang dibangun dengan **Next.js** dan **Google Generative AI**.
 
 ## Fitur
 
 - Interaksi percakapan real-time dengan pengguna.
-- Mendapatkan respons dinamis dari OpenAI.
+- Mendapatkan respons dinamis dari Google Generative AI.
 - Penanganan error untuk pengiriman kosong, kegagalan jaringan, dan kesalahan API.
 - Antarmuka pengguna yang responsif dengan Tailwind CSS.
 
@@ -26,12 +26,11 @@ Sebuah chatbot AI sederhana yang dibangun dengan **Next.js** dan **OpenAI API**.
 
 3. **Menyiapkan Environment Variables**
 
-   Buat file `.env.local` di root proyek dan tambahkan:
+      Buat file `.env.local` di root proyek dan tambahkan:
 
    ```
-   OPENAI_API_KEY=your-openai-api-key
+   GOOGLE_API_KEY=your-google-generative-ai-api-key
    ```
-
 4. **Menjalankan Proyek secara Lokal**
 
    ```bash
@@ -51,9 +50,9 @@ Sebuah chatbot AI sederhana yang dibangun dengan **Next.js** dan **OpenAI API**.
    - Kunjungi [Vercel](https://vercel.com/) dan login atau mendaftar.
    - Klik **"New Project"** dan impor repository Anda.
 
-3. **Set Environment Variables**
+3. 3. **Set Environment Variables**
 
-   - Setelah memilih repository, tambahkan `OPENAI_API_KEY` di bagian environment variables.
+   - Setelah memilih repository, tambahkan `GOOGLE_API_KEY` di bagian environment variables.
 
 4. **Deploy**
 
@@ -63,14 +62,14 @@ Sebuah chatbot AI sederhana yang dibangun dengan **Next.js** dan **OpenAI API**.
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
-- [OpenAI API](https://openai.com/api/)
+- [Google Generative AI](https://ai.google.dev/)
 - [Axios](https://axios-http.com/)
-- [Tailwind CSS](https://tailwindcss.com/) (Jika digunakan)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide React](https://lucide.dev/)
 
 ## Lisensi
 
-Proyek ini menggunakan [OpenAI API](https://openai.com/api/) yang tunduk pada [Terms of Service](https://openai.com/policies/terms-of-service).
+Proyek ini menggunakan [Google Generative AI](https://ai.google.dev/) yang tunduk pada [Terms of Service](https://ai.google.dev/terms).
 
 ## Kontak
 
